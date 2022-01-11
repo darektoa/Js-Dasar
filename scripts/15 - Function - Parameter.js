@@ -11,19 +11,18 @@ tampilkan('Ini test string');
 
 //#region STUDY CASE
 
-function kotak(name) {
+function invoice(name, harga) {
     console.log(
-        ' ------------ \n', 
-        '|          | \n',
-        '|          | \n',
-        '|          | \n',
-        '|          | \n',
-        '------------ \n',
-        `Kotak untuk ${name}`
+        '  -------------------- \n', 
+        ' | Invoice Pembayaran \n',
+        ' -------------------- \n',
+        ` | Nama: ${name} \n`,
+        ` | Harga: ${harga} \n`, 
+        ' -------------------- \n', 
     )
 }
 
-kotak('Zul');
-kotak('Maul');
+invoice('Zul');
+invoice('Maul');
 
 //#endregion
