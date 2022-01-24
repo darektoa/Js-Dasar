@@ -1,25 +1,25 @@
 /*
-    Function dapat diartikan sebagai pengelompokan sekumpulan kode yang mengembalikan nilai,
-    dan dapat digunakan secara berulang.
+    Procedure Function sama dengan Function biasa tetapi dia tidak mengembalikan nilai,
+    atau dapat dikatakan hanya menjalankan perintah-perintah / algoritma.
 */
 
-function volumeBalok() {
+function cetakVolumeBalok() {
     const panjang = 6;
     const lebar   = 2;
     const tinggi  = 4;
     const volume  = lebar * panjang * tinggi;
 
-    return volume;
+    console.log(volume);
 }
 
-console.log(volumeBalok());
+volumeBalok();
 
 
 
 //#region STUDY CASE
 
-// function kotak() {
-//     return(
+// function tampilkanKotak() {
+//     console.log(
 //         '▩▩▩▩▩▩▩▩ \n' +
 //         '▩▩▩▩▩▩▩▩ \n' +
 //         '▩▩▩▩▩▩▩▩ \n' +
@@ -28,8 +28,8 @@ console.log(volumeBalok());
 //     )
 // }
 
-// function segitiga() {
-//     return(
+// function tampilkanSegitiga() {
+//     console.log(
 //         '    *     \n' +
 //         '   ***    \n' +
 //         '  *****   \n' +
@@ -38,7 +38,7 @@ console.log(volumeBalok());
 //     )
 // }
 
-// console.log(kotak());
-// console.log(segitiga());
+// tampilkanKotak();
+// tampilkanSegitiga();
 
 //#endregion
